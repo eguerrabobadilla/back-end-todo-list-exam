@@ -18,3 +18,4 @@
 - npm install
 - npm start
 - server  http://localhost:3001
+![2](https://github.com/eguerrabobadilla/front-end-todo-list-exam/assets/20071352/04475fad-0df0-4f94-babd-254dea2721f4)
