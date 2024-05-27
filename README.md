@@ -2,7 +2,15 @@
   Aplicación de lista de tareas hecha en Nodejs Express mongoDb.
 
   
+## Docker desktop
 
+1.- Descargar Docker desktop https://www.docker.com/products/docker-desktop
+
+2.- Descargar el archivo https://github.com/eguerrabobadilla/front-end-todo-list-exam/blob/main/docker-compose.yml 
+
+3.- docker-compose up
+
+3.- http://localhost/home
 
 ## Versiones 
 - mongo  :  5.0.16
