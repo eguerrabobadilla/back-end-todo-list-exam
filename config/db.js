@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const DB_URI = `mongodb://localhost:27017/task_node`
+const DB_URI = `mongodb://mongo:27017/task_node`
 
 module.exports = () => {
 
@@ -11,11 +11,11 @@ module.exports = () => {
             {
                 keepAlive: true,
                 useNewUrlParser: true,
-                useUnifiedTopology: true
+                useUnifiedTopology: false
             },
             (err) => {
                 if (err) {
-                    console.log('DB: ERROR !!');
+                    console.log('DB: ERROR !!',err);
                 } else {
                     console.log('Conexion correcta!!')
                 }
